@@ -1,0 +1,8 @@
+features - data frame including feature values for both test and training data sets
+subjects - single-column data frame including identifiers for test subjects
+labelIndex - single-column data frame including activity labels
+
+featureNames - data frame loaded from features.txt.  Names for each feature.
+toExtract - a logical vector indicating whether each feature should be extracted.
+
+featureMean - Mean for each feature variable grouped by activity and subject
